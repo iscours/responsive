@@ -1,0 +1,66 @@
+body {
+	font-family: 'Nunito', sans-serif;
+}
+
+.header {
+	width: 1220px;
+	margin: 0 auto;
+	background-color: orange;
+	height: auto;
+	text-align: center;
+}
+
+.main {
+	width: 1220px;
+	/*margin: 10px auto 10px auto;*/
+	margin: 10px auto;
+	background-color: green;
+}
+.main .description {
+	color: white;
+}
+.footer {
+	width: 1220px;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+}
+.footer .title {
+	color: white;
+}
+
+/*Para versiones de tablets*/
+
+@media screen and (min-width:768px) and (max-width:1024px){
+	.header:before {
+		content: "Estoy en version tablet";
+	}
+	.header {
+		width: 100%;
+	}
+	.main {
+		width: 100%;
+	}
+	.footer {
+		width: 100%;
+	}
+}
+
+/*Para versiones mobiles*/
+@media screen and (min-width: 0) and (max-width: 768px){
+	.header:before {
+		content: "Estoy en version mobil";
+	}
+	.header {
+		width: 100%;
+	}
+	.header img {
+		width: 50%;
+	}
+	.main {
+		width: 100%;
+	}
+	.footer {
+		width: 100%;
+	}
+}
