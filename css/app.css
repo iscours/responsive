@@ -5,7 +5,7 @@ body {
 .header {
 	width: 1220px;
 	margin: 0 auto;
-	background-color: orange;
+	background-color: #007EFF;
 	height: auto;
 	text-align: center;
 }
@@ -14,7 +14,7 @@ body {
 	width: 1220px;
 	/*margin: 10px auto 10px auto;*/
 	margin: 10px auto;
-	background-color: green;
+	background-color: #430080;
 }
 .main .description {
 	color: white;
